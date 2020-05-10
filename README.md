@@ -26,7 +26,7 @@ return [
          'forge' => [
               'token' => env('FORGE_API_TOKEN'),
               'servers' => [
-                   'refresh_interval_in_seconds' => 60
+                   'refresh_interval_in_seconds' => 3600
                ],
               'recent_events' => [
                     'refresh_interval_in_seconds' => 60
@@ -43,8 +43,8 @@ In `app\Console\Kernel.php` you should schedule the below to run every `x` minut
 
 protected function schedule(Schedule $schedule)
 {
-    $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeServersCommand::class)->everyThirtyMinutes();
-    $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand::class)->everyThirtyMinutes();
+    $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeServersCommand::class)->hourly();
+    $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand::class)->everyMinute();
 }
 ```
 
