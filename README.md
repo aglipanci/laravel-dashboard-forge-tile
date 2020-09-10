@@ -4,7 +4,7 @@ Displays Forge Servers and Recent Events.
 
 ![Preview](docs/preview.png)
 
-This tile can be used on [the Laravel Dashboard]https://docs.spatie.be/laravel-dashboard).
+This tile can be used on [the Laravel Dashboard](https://docs.spatie.be/laravel-dashboard).
 
 ## Installation
 
