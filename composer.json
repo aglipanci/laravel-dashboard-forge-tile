@@ -1,6 +1,6 @@
 {
-    "name": "aglipanci/laravel-dashboard-forge-tile1",
-    "description": "1.1.0",
+    "name": "aglipanci/laravel-dashboard-forge-tile",
+    "description": "2.2.0",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
     "require": {
         "php": "^7.4",
         "spatie/laravel-dashboard": "^2.0",
-        "themsaid/forge-sdk": "^2.1"
+        "laravel/forge-sdk": "^3.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"

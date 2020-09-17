@@ -8,7 +8,7 @@ use aglipanci\ForgeTile\Components\ForgeRecentEventsComponent;
 use aglipanci\ForgeTile\Components\ForgeServersComponent;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
-use Themsaid\Forge\Forge;
+use Laravel\Forge\Forge;
 
 class ForgeTileServiceProvider extends ServiceProvider
 {

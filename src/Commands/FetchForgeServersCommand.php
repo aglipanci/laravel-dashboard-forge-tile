@@ -4,7 +4,7 @@ namespace aglipanci\ForgeTile\Commands;
 
 use aglipanci\ForgeTile\ForgeStore;
 use Illuminate\Console\Command;
-use Themsaid\Forge\Forge;
+use Laravel\Forge\Forge;
 
 class FetchForgeServersCommand extends Command
 {
