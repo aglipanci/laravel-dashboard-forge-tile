@@ -56,7 +56,14 @@ In your dashboard view you can use the `livewire:forge-server-tile` and `livewir
     <livewire:forge-recent-events-tile position="b1"/>
     ...
 </x-dashboard>
+```
 
+## Customizing the view
+
+If you want to customize the view used to render this tile, run this command:
+
+```bash
+php artisan vendor:publish --provider="aglipanci\ForgeTile\ForgeTileServiceProvider" --tag="dashboard-forge-tile-views"
 ```
 
 ## Testing
