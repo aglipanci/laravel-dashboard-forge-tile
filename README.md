@@ -43,8 +43,8 @@ In `app\Console\Kernel.php` you should schedule the below to run every `x` minut
 
 protected function schedule(Schedule $schedule)
 {
-    $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeServersCommand::class)->hourly();
-    $schedule->command(aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand::class)->everyMinute();
+    $schedule->command(\aglipanci\ForgeTile\Commands\FetchForgeServersCommand::class)->hourly();
+    $schedule->command(\aglipanci\ForgeTile\Commands\FetchForgeRecentEventsCommand::class)->everyMinute();
 }
 ```
 
